@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Navas Travel Shop
+  </title>
+  <style>
+   body {
+      margin: 0;
+      font-family: 'Helvetica Neue', sans-serif;
+      background: linear-gradient(135deg, #e0f7fa, #fff);
+      color: #333;
+    }
+
+    header {
+      text-align: center;
+      padding: 2rem;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      font-size: 1.2rem;
+      color: #666;
+    }
+
+    .merch-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+      padding: 2rem;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .merch-item {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.3s;
+    }
+
+    .merch-item:hover {
+      transform: translateY(-5px);
+    }
+
+    .merch-item img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .item-info {
+      padding: 1rem;
+      text-align: center;
+    }
+
+    .item-info h3 {
+      margin: 0.5rem 0;
+      font-size: 1.1rem;
+    }
+
+    .item-info p {
+      margin: 0.3rem 0;
+      font-weight: bold;
+    }
+
+    .buy-btn {
+      display: inline-block;
+      margin-top: 0.5rem;
+      padding: 0.5rem 1rem;
+      background-color: #0077cc;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      transition: background 0.3s;
+    }
+
+    .buy-btn:hover {
+      background-color: #005fa3;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      color: #666;
+    }
+
+    footer a {
+      color: #0077cc;
+      text-decoration: none;
+      margin: 0 0.5rem;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+ </head>
+ <body>
+  <header>
+   <h1>
+    Navas Travel Shop
+   </h1>
+   <p>
+    Discover our exclusive travel-inspired products
+   </p>
+  </header>
+  <section class="merch-grid">
+   <div class="merch-item">
+    <img alt="Navas Travel Bag" src="item1.jpg"/>
+    <div class="item-info">
+     <h3>
+      Travel Adventure Bag
+     </h3>
+     <p>
+      $29.99
+     </p>
+     <a class="buy-btn" href="#">
+      Buy now
+     </a>
+    </div>
+   </div>
+   <div class="merch-item">
+    <img alt="Travel T-Shirt" src="item2.jpg"/>
+    <div class="item-info">
+     <h3>
+      Travel T-Shirt
+     </h3>
+     <p>
+      $19.99
+     </p>
+     <a class="buy-btn" href="#">
+      Buy now
+     </a>
+    </div>
+   </div>
+   <div class="merch-item">
+    <img alt="Adventure's Cap" src="item3.jpg"/>
+    <div class="item-info">
+     <h3>
+      Adventure's Cap
+     </h3>
+     <p>
+      $17.99
+     </p>
+     <a class="buy-btn" href="#">
+      Buy now
+     </a>
+    </div>
+   </div>
+  </section>
+  <footer>
+   <p>
+    Follow us:
+    <a href="https://instagram.com" target="_blank">
+     Instagram
+    </a>
+    |
+    <a href="https://wa.me" target="_blank">
+     WhatsApp
+    </a>
+   </p>
+  </footer>
+ </body>
+</html>
